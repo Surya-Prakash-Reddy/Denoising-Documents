@@ -5,6 +5,8 @@
   The goal of this project is to remove unnecessary noise from the documents making them easy to read as well as easy for Optical 
   Character Recognition(OCR) to scan the documents and convert them into digital format so that one could use it anytime and anywhere.
   <br />
+  <img src="https://github.com/SurajChinna/Denoising-Documents/blob/master/assets/img1.png" />
+  <br />
   I have used denoising autoencoders to clean the documents. The autoencoders are coded using Convolutional Neural Networks(CNNs). An 
   autoencoder has two parts, one <b>encoder</b> and other <b>decoder</b>. The encoder encodes the data and decoder decodes the encoded 
   part. After passing the image through the CNNs, in the initial layers style is detected whereas in deeper layers content in image is 
